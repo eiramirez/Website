@@ -1,4 +1,13 @@
-/* src/components/Hero.css */
+.hero-section {
+  height: 100vh;
+  background: url('C:\Users\ramir\Downloads\Files\personal\src\Comp ENGR specialization page CROPPED.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 0 1rem;
+}
 
 .hero-content {
   text-align: center;
