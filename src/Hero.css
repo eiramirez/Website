@@ -1,40 +1,53 @@
+/* src/components/Hero.css */
+
 .hero-section {
   height: 100vh;
-  background: url('C:\Users\ramir\Downloads\Files\personal\src\Comp ENGR specialization page CROPPED.jpg') center/cover no-repeat;
+  background: 
+    linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)),
+    url('C:\Users\ramir\Downloads\Files\personal\public\front.jpg') center/cover no-repeat;
+  /* We remove background-attachment: fixed so we can control movement via JS */
   display: flex;
-  justify-content: center;
   align-items: center;
-  color: #fff;
+  justify-content: center;
   text-align: center;
   padding: 0 1rem;
+  margin-top: 70px; /* Adjust if you have a fixed navbar */
 }
 
 .hero-content {
-  text-align: center;
+  max-width: 700px;
   color: #fff;
+  font-family: 'Baloo 2', cursive, sans-serif;
 }
 
-.hero-content h1 {
+.hero-title {
   font-size: 3rem;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
-.hero-content p {
+.hero-subtext {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
 .hero-btn {
-  padding: 0.75rem 1.5rem;
-  border: none;
   background: #007bff;
-  color: #fff;
-  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 0.8rem 1.8rem;
   cursor: pointer;
-  border-radius: 4px;
   transition: background 0.3s ease;
 }
 
 .hero-btn:hover {
   background: #0056b3;
+}
+
+.hero-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
 }

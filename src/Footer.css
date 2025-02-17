@@ -1,0 +1,47 @@
+/* src/components/Footer.css */
+.site-footer {
+  background: #f4f4f4;
+  padding: 2rem 1rem;
+  color: #333;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-section {
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 0.25rem;
+}
+
+.footer-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-credits {
+  font-size: 0.85rem;
+  color: #777;
+}
