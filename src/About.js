@@ -4,16 +4,10 @@ import './About.css';
 
 const timelineData = [
   {
-    date: 'Nov 2023 - Dec 2023',
-    title: 'DC Motor Project',
-    location: 'Chico, CA, USA',
-    description: 'Upscaled a factory DC motor by 350% using 3D-printed components, achieving continuous rotation at 3000RPM.',
-  },
-  {
-    date: 'Oct 2021 - Mar 2024',
-    title: 'In-N-Out Burger (Associate / Clean-Up Crew)',
-    location: 'Redding, CA',
-    description: 'Maintained kitchen equipment and troubleshot fryer screen malfunctions applying engineering skills.',
+    date: 'Aug 2023 - Present',
+    title: "Bachelor's in Computer Engineering",
+    location: 'California State University, Chico',
+    description: 'Focusing on embedded systems, low-level programming, and hardware-software integration.',
   },
   {
     date: 'Apr 2019 - Present',
@@ -22,10 +16,16 @@ const timelineData = [
     description: 'Assembled over 10 custom PCs, analyzing budgets and troubleshooting hardware for optimal performance.',
   },
   {
-    date: 'Aug 2023 - Present',
-    title: "Bachelor's in Computer Engineering",
-    location: 'California State University, Chico',
-    description: 'Focusing on embedded systems, low-level programming, and hardware-software integration.',
+    date: 'Oct 2021 - Mar 2024',
+    title: 'In-N-Out Burger (Associate / Clean-Up Crew)',
+    location: 'Redding, CA',
+    description: 'Maintained kitchen equipment and troubleshot fryer screen malfunctions applying engineering skills.',
+  },
+  {
+    date: 'Nov 2023 - Dec 2023',
+    title: 'DC Motor Project',
+    location: 'Chico, CA, USA',
+    description: 'Upscaled a factory DC motor by 350% using 3D-printed components, achieving continuous rotation at 3000RPM.',
   },
   {
     date: 'Aug 2021 - May 2023',
@@ -36,12 +36,12 @@ const timelineData = [
 ];
 
 const skills = [
-  { name: 'React', proficiency: '90%' },
-  { name: 'JavaScript', proficiency: '85%' },
+  { name: 'React', proficiency: '50%' },
+  { name: 'JavaScript', proficiency: '65%' },
   { name: 'CSS/HTML', proficiency: '80%' },
-  { name: 'Embedded C', proficiency: '75%' },
-  { name: 'Assembly', proficiency: '70%' },
-  { name: 'LTSpice', proficiency: '65%' },
+  { name: 'Embedded C', proficiency: '85%' },
+  { name: 'Assembly', proficiency: '80%' },
+  { name: 'LTSpice', proficiency: '75%' },
   { name: 'MATLAB', proficiency: '60%' },
 ];
 
