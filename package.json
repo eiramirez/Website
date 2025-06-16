@@ -1,6 +1,6 @@
 {
   "name": "my-first-app",
-  "homepage": "https://eiramirez.github.io/Website",
+  "homepage": "https://eiramirez.github.io/Website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
