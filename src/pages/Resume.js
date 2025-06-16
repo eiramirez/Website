@@ -12,7 +12,7 @@ function Resume() {
       overflow: 'hidden'
     }}>
       <iframe
-        src="\Official Resume - EricR.docx.pdf"
+        src={`${process.env.PUBLIC_URL}/Official Resume - EricR.docx.pdf`}
         title="Resume"
         width="100%"
         height="100%"

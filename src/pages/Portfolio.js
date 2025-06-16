@@ -13,7 +13,7 @@ function Portfolio()
           overflow: 'hidden'
         }}>
           <iframe
-            src="\Portfolio.pdf"
+            src={`${process.env.PUBLIC_URL}/Portfolio.pdf`}
             title="Resume"
             width="100%"
             height="100%"
