@@ -6,8 +6,8 @@ function About()
         <main>
             <h2>About Me</h2>
             <p>
-              I’m a 5th-year Computer Engineering student at Chico State,
-              passionate about embedded systems, sensors, and firmware.
+              I’m a recent Computer Engineering graduate from Chico State,
+              passionate about embedded systems, sensors, firmware, and hardware.
             </p>
         </main>
     );
